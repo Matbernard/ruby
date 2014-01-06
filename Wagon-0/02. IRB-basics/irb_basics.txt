@@ -1,1 +1,19 @@
 // Copy your irb shell history below !
+
+irb(main):007:0> my_name = "Mathieu"
+=> "Mathieu"
+irb(main):008:0> def say_hi_to(name)
+irb(main):009:1> puts "welcome #{name}"
+irb(main):010:1> end
+=> nil
+irb(main):011:0> say_hi_to(name)
+NameError: undefined local variable or method `name' for main:Object
+	from (irb):11
+	from /usr/bin/irb:12:in `<main>'
+irb(main):012:0> def say_hi_to(my_name)
+irb(main):013:1> puts "welcome #{my_name}"
+irb(main):014:1> end
+=> nil
+irb(main):015:0> say_hi_to(my_name)
+welcome Mathieu
+=> nil
