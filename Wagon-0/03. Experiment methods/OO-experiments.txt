@@ -1,2 +1,20 @@
 // Copy some experiments you made on ruby String and Fixnum objects below !
 // You choose pick 3 methods for String and 3 methods for Fixnum
+
+MacBook-de-Mathieu-BERNARD:~ mathieubernard$ irb
+irb(main):001:0> "A string object".class.class
+=> Class
+irb(main):002:0> "A string object".methods.class
+=> Array
+irb(main):003:0> "bonjour".reverse
+=> "ruojnob"
+irb(main):004:0> "bonjour".capitalize
+=> "Bonjour"
+irb(main):005:0> "bonjour".upcase
+=> "BONJOUR"
+irb(main):009:0> 19+3
+=> 22
+irb(main):010:0> 23<24
+=> true
+irb(main):011:0> 23<22
+=> false
