@@ -3,8 +3,10 @@ def stupid_coaching
   puts "What are you doing?"
   answer = gets.chomp.downcase
   until answer.include? "i am going to work right now sir !"
-    if answer.include? ""
+    if answer.include? "?"
+      puts "Silly question, just get dressed"
     else
+      puts "I don't care son, just get dressed"
     end
     puts "what else?"
     answer = gets.chomp.downcase
