@@ -1,4 +1,4 @@
-def age_in_days(day, month, year)
+def age_in_days(year, month, day)
   # your code goes here !
   t1 = Time.now.to_i
   t2 = Time.new(year, month, day).to_i
@@ -7,4 +7,4 @@ end
 
 
 # Testing your code
-puts age_in_days(25, 07, 1978)
+puts age_in_days(1984, 8, 30)
